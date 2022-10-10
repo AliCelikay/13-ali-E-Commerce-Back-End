@@ -1,6 +1,7 @@
 const { Category } = require('../models');
 
 const categoryData = [
+  // filling in columns with strings
   {
     category_name: 'Shirts',
   },
@@ -18,6 +19,8 @@ const categoryData = [
   },
 ];
 
+//bulkCreate allows to fill in columns in the back end
 const seedCategories = () => Category.bulkCreate(categoryData);
 
+//exporting seedCategories
 module.exports = seedCategories;
