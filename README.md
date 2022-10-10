@@ -21,11 +21,11 @@ Product Routes:
 * DELETE http://localhost:3001/api/products/:id
 
 Tag Routes:
-GET http://localhost:3001/api/tags/
-GET http://localhost:3001/api/tags/:id
-POST http://localhost:3001/api/tags
-PUT http://localhost:3001/api/tags/:id
-DELETE http://localhost:3001/api/tags/:id
+* GET http://localhost:3001/api/tags/
+* GET http://localhost:3001/api/tags/:id
+* POST http://localhost:3001/api/tags
+* PUT http://localhost:3001/api/tags/:id
+* DELETE http://localhost:3001/api/tags/:id
 
 ## Walkthrough Video Link
 https://drive.google.com/file/d/1Fs0DW6jr3c3XCG9qQ17wtkzJFlyh9flE/view 
