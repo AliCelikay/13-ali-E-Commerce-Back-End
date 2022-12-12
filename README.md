@@ -6,6 +6,9 @@ This code allows the employee of an e-commerce store to look through all of the 
 ## Usage
 To use this app, please run 'source schema.sql' inside the mysql, run 'npm run seed' to reset all information, and lastly you can run the app using 'npm start'.
 
+## Walkthrough Video Link
+https://drive.google.com/file/d/1Fs0DW6jr3c3XCG9qQ17wtkzJFlyh9flE/view 
+
 Category Routes:
 * GET http://localhost:3001/api/categories/
 * GET http://localhost:3001/api/categories/:id
@@ -27,5 +30,3 @@ Tag Routes:
 * PUT http://localhost:3001/api/tags/:id
 * DELETE http://localhost:3001/api/tags/:id
 
-## Walkthrough Video Link
-https://drive.google.com/file/d/1Fs0DW6jr3c3XCG9qQ17wtkzJFlyh9flE/view 
